@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Start">START</string>
+    <string name="money">COIN:</string>
+    <string name="stage">ステージ</string>
+    <string name="Normal">ノーマル</string>
+    <string name="yes">はい</string>
+    <string name="Cancel">キャンセル</string>
+    <string name="Exit_check">Galaxy キャッチャーを終了しますか？</string>
+    <string name="Tutorial">チュートリアル</string>
+    <string name="TutorialText">操作方法：\n・左下の投入口を押すとプレー回数が増えます。\n・右にある矢印ボタンを押している間クレーンが動きます。\n\n景品の一部を獲得しても途中でリタイアしてしまうと報酬は受け取れません。\n\n右下の３つのアイコン：\n・レーザー(クレーンが降りる位置の目安)\n・リスタート(獲得されてない景品を初期状態に)\n・リタイア(このステージでは使えません)</string>
+	<string name="Exitm">リタイアしますか？獲得した景品であってもクリアしなければ入手できません。</string>
+	<string name="charge_success">購入が完了しました</string>
+	<string name="askrestart">景品の位置をリセットしますか？</string>
+	<string name="CoinInfo">コイン：ステージクリア報酬です。</string>
+	<string name="rewardsearned">獲得報酬:</string>
+	<string name="coinover">一度に6プレー以上のコインを入れることはできません</string>
+	<string name="OutOfMemory">ロード中にエラーが発生しました。</string>
+	<string name="prizegot">獲得した景品</string>
+	<string name="License">利用規約</string>
+	<string name="LicenseTitle">ゲームを始める前に：</string>
+	<string name="LicenseSimple">・このゲームはGalaxyCatcherをベースにしたシステム改良版です。\n・このゲームの続編版として、改めて別ゲームの開発を予定しています。\n・今後有料アイテムを販売する可能性があります。\n以上、同意頂ける方のみお楽しみ下さい。</string>
+	<string name="agree">続ける</string>
+	<string name="ScreenSizeNotSupported">サポートされてない画面サイズです. サポートされていないサイズではレイアウトが崩れる可能性があります。</string>
+	<string name="UnlimitedText">このステージはひたすら景品を獲得していくステージです。\nプレイ回数は最初から決まっており、コイン投入では増やせません。景品を獲得するとプレイ回数が加算され、獲得できずプレイ回数が0になるとゲームオーバーになります。獲得した景品数に応じて報酬も増加します。このステージでは獲得補助のレーザーは使えません。</string>
+	<string name="iteminfo">アイテムは今後入れ替えや価格の変動が発生する可能性があります。ご了承下さい。\nまた、アプリを消去するといくつかのアイテムは消滅します。</string>
+	<string name="items">アイテム</string>
+	<string name="shop">ショップ</string>
+    <string name="Other">その他</string>
+	<string name="Resume">戻る</string>
+	<string name="Retire">リタイア</string>
+	<string name="About">GalaxyCatcher Extraについて</string>
+	<string name="Share">シェア</string>
+	<string name="BackToTitle">タイトルに戻る</string>
+	<string name="Help">ヘルプ</string>
+    <string name="Tweet">ツイート</string>
+    <string name="AppURL">https://play.google.com/store/apps/details?id=galaxysoftware.galaxycatcherextra_android&amp;hl=jp</string>
+	<string name="PostedFromGCE">"GalaxyCatcher Extraより - "</string>
+	<string name="ShopNotReady">現在準備中です。</string>
+	<string name="StageClear">Stage Clear！</string>
+	<string name="TimesPlayed">"プレー回数： "</string>
+	<string name="GotPrize">景品を獲得しました！</string>
+	<string name="ErrorOnTwitter">エラー：Twitterがインストールされてない可能性があります</string>
+	<string name="Exit">終了</string>
+</resources>

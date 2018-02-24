@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <LinearLayout
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/stage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage2"
+        android:layout_toLeftOf="@+id/stage2"
+        android:text="2"
+        android:textColor="@color/skyblue" />
+
+    <TextView
+        android:id="@+id/stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/stage"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage1"
+        android:layout_toLeftOf="@+id/stage1"
+        android:text="1"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stage"
+        android:layout_centerHorizontal="true"
+        android:text="3"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage2"
+        android:layout_toRightOf="@+id/stage2"
+        android:text="4"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage3"
+        android:layout_toRightOf="@+id/stage3"
+        android:text="5"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage7"
+        android:layout_toLeftOf="@+id/stage7"
+        android:text="7"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stage2"
+        android:layout_centerHorizontal="true"
+        android:text="8"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage7"
+        android:layout_toRightOf="@+id/stage7"
+        android:text="9"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage8"
+        android:layout_toRightOf="@+id/stage8"
+        android:text="10"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage6"
+        android:layout_toLeftOf="@+id/stage6"
+        android:text="6"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage12"
+        android:layout_toLeftOf="@+id/stage12"
+        android:text="12"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stage7"
+        android:layout_centerHorizontal="true"
+        android:text="13"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage12"
+        android:layout_toRightOf="@+id/stage12"
+        android:text="14"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage13"
+        android:layout_toRightOf="@+id/stage13"
+        android:text="15"
+        android:textColor="@color/skyblue" />
+
+    <Button
+        android:id="@+id/stage10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stage11"
+        android:layout_toLeftOf="@+id/stage11"
+        android:text="11"
+        android:textColor="@color/skyblue" />
+
+    <RelativeLayout
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/skyblue" >
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/black"
+            android:text="@string/money"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lime" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

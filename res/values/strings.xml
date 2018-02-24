@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">GalaxyCatcher Extra</string>
+    <string name="ScreenSize" translatable="false">Phone</string>
+    <string name="Start">START</string>
+    <string name="money">COIN:</string>
+    <string name="stage">Stages</string>
+    <string name="Normal">Normal</string>
+    <string name="developer" translatable="false">Galaxy Games</string>
+    <string name="yes">Yes</string>
+    <string name="Exit_check">Exit Galaxy Catcher？</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="TutorialText">Controls：\n・Touch left bottom to increase plays\n・Touch arrow to move catcher\n\nThe prize will be exchanged to coins after cleared. If you retire the game, you can`t get them.\n\nRoles of 3buttons on bottom right:\n・Laser(Shows Position of the catcher)\n・Reset(the prize position)\n・Retire(will be added from next)</string>
+	<string name="Exitm">Retire? You can`t receive any reward unless you clear the stage.</string>
+	<string name="Cancel">Cancel</string>
+	<string name="shop">Shop</string>
+	<string name="gameover" translatable="false">GameOver...</string>
+	<string name="askrestart">Reset the prize position?</string>
+	<string name="CoinInfo">Coin：Reward of stage clear.</string>
+	<string name="version" translatable="false">3.1</string>
+	<string name="CopyRight" translatable="false">© Galaxy Software Inc. 2015 - 2017 Version:3.1</string>
+	<string name="License">License</string>
+	<string name="LicenseTitle">Before you start：</string>
+	<string name="LicenseSimple">・This Game is based on GalaxyCatcher with system updated.\n・We have a plan to make other game as sequel.\n・We might sell In-App items.\nPlease agree to those thing before playing.</string>
+	<string name="agree">Continue</string>
+	<string name="rewardsearned">Rewards:</string>
+	<string name="coinover">Coin input is limited to 500.Play once to input again.</string>
+	<string name="OutOfMemory">Error occured while loading.</string>
+	<string name="items">Shop items</string>
+	<string name="prizegot">Prize you got:</string>
+	<string name="ScreenSizeNotSupported">The screen size is not supported. This might effect layout.</string>
+	<string name="UnlimitedText">This stage is to get prizes as you can.\nNumbers of plays are decided from first.You can`t increase plays by coins.When you get the prize, plays will increase.If numbers of play decreased to 0, it`s gameover.Reward will increase by the numbers of prize you got.Laser is disabled in this stage.</string>
+	<string name="encodeKey" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhhWJAyomN+lf+huqYKKIPPGOzm+V6Bt8HLcihpIW06ymNL1msNHVYHhtGz0IzGwAsDCOayCF9ctKafxocBTk8hdmpCz1VdcRmu1vcZi/g7ni+HjBPVEe8xn2De0Qib10QgaH2nJwk/9SkFPqDDfIT44sBsbwfGBqbSzw04KcxZ2fqs5H3K//TNIUW9vCmPdctvPsPHn3srKJDoqpx2gvJWd6W9ULrlXZk+c55f04Ki2DXtT+N+owkECP9rbSC3tP9sHFLnV95iZicmCgc1bsjtdd7Qw8UfE7KF7E3skuqthz00Wk1Mhbxivf0xVqpFsV+RQ5CL8r2VEYeFErQTOJwwIDAQAB</string>
+	<string name="iteminfo">Please note that these items might be replaced or price moved in the future. \nAlso, if you delete this app, some item(s) will be deleted.</string>
+	<string name="charge_success">Purchase Complete</string>
+	<string name="Other">Other</string>
+	<string name="Resume">Resume</string>
+	<string name="Menu" translatable="false">Menu</string>
+	<string name="Retire">Retire</string>
+	<string name="About">About</string>
+	<string name="Share">Share</string>
+	<string name="BackToTitle">Back to Title</string>
+	<string name="Help">Help</string>
+    <string name="Tweet">Tweet</string>
+	<string name="AdUnitID" translatable="false">ca-app-pub-4430649923201940/6141485116</string>
+	<string name="AppURL">https://play.google.com/store/apps/details?id=galaxysoftware.galaxycatcherextra_android</string>
+	<string name="ShopNotReady">Content is not ready</string>
+	<string name="PostedFromGCE">"GalaxyCatcher Extra - "</string>
+    <string name="StageClear">Stage Clear!</string>
+	<string name="TimesPlayed">Times Played:</string>
+	<string name="Stage1" translatable="false">Stage 1</string>
+	<string name="Stage2" translatable="false">Stage 2</string>
+	<string name="Stage3" translatable="false">Stage 3</string>
+	<string name="Stage4" translatable="false">Stage 4</string>
+	<string name="GotPrize">You got a prize!</string>
+	<string name="VersionCode" translatable="false">2</string>
+	<string name="ErrorOnTwitter">Error: Twitter might not installed</string>
+	<string name="Exit">Exit</string>
+</resources>

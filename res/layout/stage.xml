@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/TitlePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/label" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/controls"
+        android:layout_below="@+id/TitlePlate"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menubuttons"
+        android:background="@color/dimgray">
+
+        <ImageButton
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:background="@color/dimgray"
+            android:src="@drawable/coininput" />
+
+        <ImageView
+            android:id="@+id/display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:layout_toEndOf="@+id/input"
+            android:src="@drawable/pricedisplay" />
+
+        <FrameLayout
+            android:id="@+id/PlayFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:layout_toEndOf="@+id/display">
+
+            <ImageView
+                android:id="@+id/PlayBG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/playleft" />
+
+            <TextView
+                android:id="@+id/Playleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/red"
+                android:textSize="40sp" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/yoko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toStartOf="@+id/tate"
+            android:background="@color/dimgray"
+            android:src="@drawable/rightarrow" />
+
+        <ImageButton
+            android:id="@+id/tate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toStartOf="@+id/stop"
+            android:background="@color/dimgray"
+            android:src="@drawable/uparrow" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@color/dimgray"
+            android:src="@drawable/stop" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/menubuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_marginBottom="50dp">
+
+        <ImageView
+            android:id="@+id/CoinBG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coinbackground" />
+
+        <TextView
+            android:id="@+id/Coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/CoinBG"
+            android:gravity="end"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/Retire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="2dp"
+            android:background="@color/white"
+            android:src="@drawable/retire" />
+
+        <ImageButton
+            android:id="@+id/Restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_toStartOf="@+id/Retire"
+            android:background="@color/white"
+            android:src="@drawable/restart" />
+
+        <ImageButton
+            android:id="@+id/Target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_toStartOf="@+id/Restart"
+            android:background="@color/white"
+            android:src="@drawable/target" />
+    </RelativeLayout>
+
+    <include android:id="@+id/adView" layout="@layout/adview" />
+</RelativeLayout>
